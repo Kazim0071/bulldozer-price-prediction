@@ -10,27 +10,29 @@ env.bak/
 venv.bak/
 
 # ==========================================
-# Jupyter Notebook
-# ==========================================
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/*
-
-# ==========================================
-# Datasets & Large Data Files
-# (GitHub rejects files > 100MB; Train.csv & TrainAndValid.csv exceed this)
+# Project Data & Datasets
 # ==========================================
 data/
+Data/
+DATA/
+**/data/
 *.csv
 *.tsv
 *.xlsx
+*.xls
+*.zip
+*.7z
+*.tar.gz
 *.parquet
 *.feather
 *.h5
 *.hdf5
-*.zip
-*.7z
-*.tar.gz
-*.rar
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
 
 # ==========================================
 # Trained Models & Serialized Files
